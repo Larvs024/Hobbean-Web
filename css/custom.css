@@ -1,0 +1,130 @@
+/* Custom CSS*/
+
+.html{
+    margin: 0;
+}
+
+
+#home-title{
+    letter-spacing: 1px;
+}
+
+.navbar-custom{
+    background-color: rgba(24, 15, 15, 0.645);
+    transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+#home-content{
+    background-image: url(/img/bg-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-container{
+    background-color: rgba(41, 39, 39, 0.645);
+    transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+    backdrop-filter: blur(3px);
+    z-index: 1000;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+#aboutUs-pgraph {
+    letter-spacing: 1px;
+}
+
+#aboutUs-details {
+    background-image: url(/img/shop-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+#aboutHobbean {
+    background-color: rgba(41, 39, 39, 0.645);
+    transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+    backdrop-filter: blur(3px);
+    z-index: 1000;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#hobbeanIMG {
+    filter: invert();
+}
+
+.slidesIMG {
+    height: 500px;
+    width: 300px;
+}
+
+.slidesPIC {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+@media (min-width: 400px) {
+    .slidesIMG {
+        height: 500px;
+        width: 380px;
+    }
+    .slidesPIC {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+}
+
+@media (min-width: 430px) {
+    .slidesIMG {
+        height: 500px;
+        width: 400px;
+    }
+    .slidesPIC {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+}
+
+@media (min-width: 700px) {
+    .slidesIMG {
+        height: 500px;
+        width: 600px;
+    }
+    .slidesPIC {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+}
+
+.containerBackground {
+    background-image: url(/img/shop-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactItems {
+    background-color: rgba(41, 39, 39, 0.645);
+    transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+    backdrop-filter: blur(1px);
+    z-index: 1000;
+}
+
+
+@media (max-width: 768px) {
+    .container-fluid{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
